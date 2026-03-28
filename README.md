@@ -43,7 +43,7 @@ The LSTM Classifier performed best with an F1-score of 0.920. The Autoencoder st
 
 ### Confusion Matrices
 
-![Confusion Matrices](results/plot_confusion_matrices.png)
+![Confusion Matrices](plot_confusion_matrices.png)
 
 | Model | TN | FP | FN | TP |
 |---|---|---|---|---|
@@ -53,7 +53,7 @@ The LSTM Classifier performed best with an F1-score of 0.920. The Autoencoder st
 
 ### RUL Prediction
 
-![RUL Results](results/plot_rul_results.png)
+![RUL Results](plot_rul_results.png)
 
 | Metric | Value |
 |---|---|
@@ -64,7 +64,7 @@ On average the model predicts remaining engine life to within about 12 cycles of
 
 ### Fleet Dashboard
 
-![Fleet](results/plot_fleet.png)
+![Fleet](plot_fleet.png)
 
 Out of 100 test engines:
 - 62 normal (RUL above 80 cycles)
@@ -73,7 +73,7 @@ Out of 100 test engines:
 
 ### Real-Time Monitor
 
-![Real-Time Monitor](results/realtime_monitor.gif)
+![Real-Time Monitor](realtime_monitor.gif)
 
 The animated dashboard tracks Engine 3 across 180 cycles. It shows live sensor readings, a composite risk score updating every cycle, a RUL countdown, and a scrolling anomaly alert log with recommended actions. The animation runs from all systems nominal at the start through to an emergency shutdown alert as the engine approaches failure.
 
